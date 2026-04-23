@@ -249,14 +249,61 @@
 # 5.Count the number of digits in a number.
 # n=int(input("Enter any no : "))
 # if n>0 :
-#     sum=0
+#     count=0
+#     while n>0 :
+#         count=count+1
+#         n=n//10
+#     print(count)
+# else :
+#     print("Negative no not allowed")
+
+# 6.Sum of digits of a number
+# n=int(input("Enter any no : "))
+# sum=0
+# if n>0 :
 #     while n>0 :
 #         digit=n%10
 #         sum+=digit
 #         n=n//10
 #     print(sum)
 # else :
-#     print("Negative no not allowed")
+#     print(f"Negative number {n} not allowed")
+
+# 7.Check palindrome number
+# n=int(input("Enter any no : "))
+# x,rev=n,0
+# while n>0 :
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# if x==rev :
+#     print("Palindrome")
+# else :
+#     print("Not Palindrome")
+
+# 8.Keep asking input until negative number
+# n=int(input("Enter any no : "))
+# while n>=0 :
+#     n=int(input("Enter number : "))
+
+# print("User entered negative number , loop stopped ...")
+
+# 9.Password checker
+# correct_password = "python123"
+# password = input("Enter password: ")
+# while password != correct_password:
+#     password = input("Wrong password, try again: ")
+
+# print("Access granted")
+
+# 10.Fibonacci series up to n terms
+# n=10
+# a,b=0,1
+# count=0
+# while count<n :
+#     print(a,end=" ")
+#     a,b=b,a+b
+#     count+=1
 
 # FOR LOOP : 
 # syntax : for variable in iterables:-collection datatype(list,tuple,string,dict,range)
