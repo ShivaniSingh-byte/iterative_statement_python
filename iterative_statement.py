@@ -324,3 +324,68 @@
 # for ch in s :
 #     s=s.join(s)+chr(ord(ch)+1)
 # print(s)
+
+# l=eval(input("Enter any list : "))     #new list ki wjh se space complexity increase ho rhi hn
+# l1=[]
+# for i in l :
+#     l1.append(i+5)
+# print(l1)
+
+# l=eval(input("Enter any list : "))      #new list ki wjh se space complexity increase ho rhi hn
+# l1=[]
+# for i in l :
+#     l1.append(i**2)
+# print(l1)
+
+# t=(1,2,3,4,5)
+# l=list(t)
+# print(l)
+# print(type(l))
+# l1=[]
+# for i in l :
+#     l1.append(i+5)
+# t=tuple(l1)
+# print(t)
+
+# l=[1,2,3,4,5]
+# l[0]=6
+# print(l)
+
+# l=[1,2,3,4,5]
+# for i in range(len(l)) :
+#     x=l[i]+5
+#     l[i]=x
+# print(l)
+
+# l=[1,2,3,4,5]
+# for i in range(len(l)) :
+#     l[i]=l[i]+5
+# print(l)
+
+# d={"x":10,"y":20,"z":"python"}
+# for i in d :
+#     print(i)
+
+# d={"x":10,"y":20,"z":"python"}
+# for i in d :
+#     print(i,'=',d[i])
+
+# d={"x":10,"y":20,"z":"python"}
+# for i in d.keys() :
+#     print(i)
+
+# d={"x":10,"y":20,"z":"python"}
+# for i in d.values() :
+#     print(i)
+
+# d={"x":10,"y":20,"z":"python"}
+# for i in d :
+#     print(d[i])
+
+# d={"x":10,"y":20,"z":"python"}
+# for i,j in d.items() :
+#     print(i,'=',j)
+
+# s={10,20,30,'python','java'}
+# for i in s :
+#     print(i)
