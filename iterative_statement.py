@@ -389,3 +389,101 @@
 # s={10,20,30,'python','java'}
 # for i in s :
 #     print(i)
+
+# QUESTIONS :
+# 1.Print numbers from 1 to 10 using a for loop
+# for i in range(1,11) :
+#     print(i)
+
+# 2.Print all even numbers from 1 to 20
+# for i in range(1,21) :
+#     if i%2==0 :
+#         print(i,end=" ")
+
+# 3.Print the multiplication table of 5
+# for i in range(1,11) :
+#     print(f'5 * {i} = {5*i}')
+
+# 4.Print each character of a string (e.g., "Python")
+# s="python"
+# for i in s :
+#     print(i)
+
+# 5.Find the sum of numbers from 1 to 100
+# sum=0
+# for i in range(1,101) :
+#     sum+=i
+# print(sum)
+
+# 6.Print all odd numbers between 1 and 50
+# for i in range(1,51) :
+#     if i%2!=0 :
+#         print(i,end=" ")
+
+# 7.Count how many vowels are in a string
+# s="hello world WORLD"
+# count=0
+# for i in s :
+#     if i.lower() in "aeiou" :
+#         count+=1
+# print(count)
+
+# 8. Reverse a string
+# s="python is a programming language"
+# rev=" "
+# for i in s :
+#     rev=i+rev
+# print(rev)
+
+# 9. Factorial of a number.
+# fact=1
+# for i in range(1,6) :
+#     fact*=i
+# print(fact)
+
+# 10. Pattern
+# for i in range(1,6) :
+#     print("*"*i+" "*(5-i))
+
+# 11. Largest number in a list
+# l=[1,8,7,6,5,80,9,0,8,59,43,2,3,7,9]
+# largest=l[0]
+# for i in l :
+#     if i > largest :
+#         largest=i
+# print(largest)
+
+# 12. Count digits in a number
+# nums=3456789
+# count=0
+# for i in str(nums) :
+#     count+=1
+#     nums//=10
+# print(count)
+
+# 13. Fibonacci series
+# n=10
+# a,b=0,1
+# for i in range(n) :
+#     print(a,end=" ")
+#     a,b=b,a+b
+
+# 14. Prime number check
+# n=19
+# is_prime=True
+# if n<=1 :
+#     is_prime=False
+# else :
+#     for i in range(2,n) :
+#         if n%i==0 :
+#             is_prime=False
+#             break
+#     print(is_prime)
+
+# 15. Remove duplicates from list
+# nums = [1, 2, 2, 3, 4, 4, 5]
+# unique = []
+# for num in nums:
+#     if num not in unique:
+#         unique.append(num)
+# print(unique)
