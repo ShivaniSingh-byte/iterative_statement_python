@@ -487,3 +487,39 @@
 #     if num not in unique:
 #         unique.append(num)
 # print(unique)
+
+# 16.Sum of digits of a number
+# n=int(input("Enter a no : "))
+# sum=0
+# for i in range(1,n+1) :
+#     digit=n%10
+#     sum+=digit
+#     n//=10
+# print(sum)
+
+# 17.Check if a number is palindrome
+# n=int(input("Enter a no : "))
+# x,rev=n,0
+# while n>0 :
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+# if rev==x :
+#     print("Palindrome")
+# else :
+#     print("Not Palindrome")
+
+# 18.Print all factors of a number
+# n=int(input("Enter a no : "))
+# for i in range(1,n+1) :
+#     if n%i==0 :
+#         print(i,end=" ")
+
+# 19.Count words in a sentence
+# s="Hello world python"
+# s="Hello"
+# count=1
+# for i in s :
+#     if i==" " :
+#         count+=1
+# print(count,end=" ")
